@@ -1,0 +1,238 @@
+html {
+  height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+  }
+
+  .navbar-nav a {
+    color: white !important;
+}
+
+  .navbar-nav a:hover {
+    color: #008080 !important;
+    text-transform: uppercase;
+  }
+
+  .crossing-image {
+    position: absolute;
+    top: 50%;
+    left: -100%; /* Initially offscreen on the left */
+    transform: translate(-50%, -50%);
+    transition: left 3s ease-in-out; /* Smooth transition */
+  }
+  
+  .background-section {
+    background-image: url('/media/blocks.jpg'); /* Your background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.full-width-image {
+    width: 100%; /* Make the image take up full width */
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    margin-top: 50px;
+    overflow: hidden; /* Hide any overflow if the image is larger than its container */
+}
+
+.full-width-image img {
+    width: 100%; /* Make the image take up full width */
+    display: block; /* Ensure the image behaves as a block element */
+}
+
+   /* Popup styles */
+   .popup {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 1s; /* Add transition for opacity */
+  }
+
+  .popup img {
+    max-width: 40%;
+    max-height: 40%;
+  }
+  /*---------END SECTION 1-------*/
+  /*---------END SECTION 1-------*/
+
+  /*-----------SECTION 2---------*/
+  /*-----------SECTION 2---------*/
+
+  #about-section {
+    background-image: url('/media/blocks-upside-down.jpg'); /* Your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.about-rounded-box {
+    position: relative;
+    background-image: url('/media/angled2.png'); /* Your background image URL */
+    height: 55%;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.9); /* Add a drop shadow */
+    background-color: #fff;
+    z-index: 1;
+}
+
+
+  .about-rounded-box img {
+    width: 100%;
+    border-radius: 5px;
+    transform: translateX(0%); /* Center the buttons vertically */
+    z-index: 1;
+  }
+  
+  .about-rounded-box h2 {
+    font-size: 18px;
+    z-index: 2;
+  }
+  
+  .about-rounded-box p {
+    font-size: 14px;
+    z-index: 1;
+  }
+
+  #me {
+    height: 100%;
+  }
+  
+  /*---------END SECTION 2-------*/
+  /*---------END SECTION 2-------*/
+
+  /*-----------SECTION 3---------*/
+  /*-----------SECTION 3---------*/
+
+  #games {
+    background-image: url('/media/blocks.jpg'); /* Your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+  #sec3-blurb {
+    position: relative;
+    display: block;
+  }
+  
+  .rounded-box {
+    position: relative;
+    background: url('/media/angled2.png');
+    background-size: contain;
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: rgb(10, 0, 0);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1.9); /* Add a drop shadow */
+    z-index: 1;
+}
+
+.rounded-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9; /* Adjust the opacity value */
+    z-index: 1;
+}
+
+  .rounded-box img {
+    position: relative;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    top: 15%;
+    z-index: 1;
+  }
+
+  .rounded-box img:hover {
+    width: 40%;
+  }
+  
+  .rounded-box h2 {
+    position: relative;
+    margin: 0;
+    top: -10%;
+    font-size: 1.5em;
+    z-index: 1;
+  }
+  
+  .rounded-box p {
+    position: relative;
+    margin: 0;
+    top: -12%;
+    margin: 10px 0;
+    font-size: 1.2em;
+    z-index: 1;
+  }
+
+  /* Customize the size of the video player */
+  .offcanvas-body video {
+  width: 100%; /* Adjust width as needed */
+  height: 75%; /* Maintain aspect ratio */
+  max-height: 15vh; /* Set maximum height to prevent overflow */
+}
+
+
+  /*-----------END SECTION 3---------*/
+  /*-----------END SECTION 3---------*/
+
+  /*-----------SECTION 4---------*/
+  /*-----------SECTION 4---------*/
+
+  #section-4 {
+    background-image: url('/media/blocks-upside-down.jpg'); /* Your background image URL */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.epsorts-box {
+  border-radius: 10px;
+  border: 2px solid black;
+  color: rgb(10, 0, 0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1.9); /* Add a drop shadow */
+}
+
+.text-position {
+    display: inline-block;
+    position: relative;
+    padding-top: 10%;
+}
+
+  #section-4 .row {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+#section-4 .col-md-6 {
+    flex: 1; /* Equal width for both columns */
+}
+
+#section-4 .col-md-6 img {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+

@@ -1,1 +1,8 @@
-I was lazy and didn't code this site. I used a template I found online. Unfortunately I lost the original file and I don't remember which free site I downloaded it from. If you are the author let me know and I will gladly give you credit. Apologies for the butchering of your code, I needed something fast and presentable to host my stuff.
+Credits:
+
+https://www.freepik.com/free-photo/vintage-grunge-paper-background_5405364.htm - Textured paper
+
+https://www.freepik.com/free-vector/abstract-white-shapes-background_12628435.htm#query=web%20background&position=33&from_view=search&track=ais&uuid=fa9dfca4-dfaa-439a-9aec-65b87445f0ca - blocks
+
+https://www.freepik.com/free-vector/abstract-vector-squares-background_1308038.htm - angled blocks
+
