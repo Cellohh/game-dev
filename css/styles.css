@@ -26,7 +26,7 @@ body {
   }
   
   .background-section {
-    background-image: url('/media/blocks.jpg'); /* Your background image URL */
+    background-image: url('media/blocks.jpg'); /* Your background image URL */
     background-size: cover;
     background-position: center;
 }
@@ -67,7 +67,7 @@ body {
   /*-----------SECTION 2---------*/
 
   #about-section {
-    background-image: url('/media/blocks-upside-down.jpg'); /* Your background image URL */
+    background-image: url('media/blocks-upside-down.jpg'); /* Your background image URL */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -76,7 +76,7 @@ body {
 
 .about-rounded-box {
     position: relative;
-    background-image: url('/media/angled2.png'); /* Your background image URL */
+    background-image: url('media/angled2.png'); /* Your background image URL */
     height: 55%;
     width: auto;
     border-radius: 10px;
